@@ -37,7 +37,7 @@ def register(request):
 				username = Username,
 				email = Email,
 				first_name = First_name,
-				password = Password,
+				password = Password
 			).save()
 			args['Signed_In'] = True
 		else:	
