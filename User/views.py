@@ -43,7 +43,6 @@ def register(request):
 		else:	
 			args['Error'].append('Username or Email already registered')
 			
-	
 	return HttpResponse(json.dumps(args),content_type='application/json')
 
 

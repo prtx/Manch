@@ -37,6 +37,7 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'User',
+    'Pdf',
 )
 
 MIDDLEWARE_CLASSES = (
