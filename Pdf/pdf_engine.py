@@ -3,8 +3,6 @@
 
 import os, subprocess, sys
 from json import dumps, loads
-reload(sys)
-sys.setdefaultencoding("utf-8")
 
 def word_count(text):
 	
